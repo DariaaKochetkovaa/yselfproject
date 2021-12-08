@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+   
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/*Intro*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../WEB/fe99ab.jpg) center, no-repeat;
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin-left: 0 auto;
+}
+
+.intro__title {
+    margin-bottom: 55px;
+    color: #FFEF5A;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5;    
+}
+
+.img_1 {
+    float: right;
+    margin-right: auto;
+}
+
+.intro__subtitle {
+    font-size: 30px;
+    color: #333;
+}
+
+.intro__inf {
+    margin-top: 15px;
+    font-size: 30px;
+    color: #333;
+} 
+
+.link {
+    text-decoration: none;
+    color: #FFF7AF;
+    transition: color 0.2s linear;
+}
+
+.link:hover {
+    color: #333;
+}
+
+/*Header*/
+.header {
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF7AF;
+}
+
+/*Nav*/
+.nav {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    color: #333;
+    text-decoration: none;
+    
+    transition: color 0.2s linear;
+}
+
+.nav__link:hover {
+    color: #FFF7AF;
+}
+
+/*Button*/
+.btn {
+    margin-top: 55px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #FFF7AF;
+    color: #333;
+    transition: background 0.2s linear, color 0.2s linear;
+}
+
+.btn:hover {
+    background-color: #FFF7AF;
+    color: #fe99ab;
+}
+
+/*Footer*/
+.footer {
+    padding-top: 50px;
+    background-color: #333;
+    justify-content: center;
+}
+
+.footer__logo {
+    margin-bottom: 30px;
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.form {
+    width: 100%;
+    max-width: 800px;
+
+}
+
+._name {
+    color: white;
+    margin-top: 15px;
+    margin-left: 450px;
+    font-size: 20px;
+    
+}
+
+.name__input {
+    background: #333;
+    border: 1px solid #fe99ab;
+    color: white;
+    font-size: 20px;
+}
+
+._telefon {
+    color: white;
+    margin-top: 15px;
+    margin-left: 450px;
+    font-size: 20px;
+    
+}
+
+.telefon__input {
+    background: #333;
+    border: 1px solid #fe99ab;
+    color: white;
+    font-size: 20px;
+}
+
+._inst {
+    color: white;
+    margin-top: 15px;
+    margin-left: 450px;
+    font-size: 20px;
+    
+}
+
+.inst__input {
+    background: #333;
+    border: 1px solid #fe99ab;
+    color: white;
+    font-size: 20px;
+} 
+
+._q1{
+    color: white;
+    margin-top: 15px;
+    margin-left: 450px;
+    font-size: 20px;
+    
+}
+
+.btn__form {
+    height: 40px;
+    background-color: #fe99ab;
+    color: #333;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 875px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}

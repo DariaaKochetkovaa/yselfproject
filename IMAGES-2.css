@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+   
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/*Header*/
+.header {
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: url(../WEB/fe99ab.jpg) center, no-repeat;
+    
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    font-size: 70px;
+    font-weight: 0;
+    color: #FFF7AF;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.header__logo:hover {
+    color: #333;;
+}
+
+/*Intro*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.intro__title {
+    margin-bottom: 55px;
+    color: #FFF7AF;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5;    
+}
+
+.img_2 {
+    float: left;
+    margin-left: auto;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.intro__subtitle {
+    font-size: 30px;
+    color: #fe99ab;
+    justify-content: center;
+    text-align: center;
+    
+}
